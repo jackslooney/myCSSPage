@@ -52,6 +52,7 @@ a{
     color:#fff;
   }
 
+  /* Creating a standard header */
   .main-header{
     text-align:center;
     font-weight:800;
@@ -69,7 +70,6 @@ a{
   
   
   /*Formatting for the navBar in the main header*/
-  
   .navBar li{
     letter-spacing: .2em;
     list-style: none;
