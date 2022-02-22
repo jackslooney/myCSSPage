@@ -57,7 +57,7 @@ a{
     font-weight:800;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:200%;
-    letter-spacing: .5em;
+    letter-spacing: .3em;
     background-color: black;
     color:White;
     padding:45px;
@@ -69,21 +69,22 @@ a{
   
   
   /*Formatting for the navBar in the main header*/
-  .navBar li{
+  
+
+  li{
     letter-spacing: .2em;
     list-style: none;
-    padding-right:20px;
+    padding-right:40px;
     float:right;
   }
-  
-  .navBar ul{
+
+  ul{
     text-decoration:none;
   }
-  
-  .navBar a:hover{
+
+  a:hover{
     color:#d3d3d3;
   }
-
 
 /* Kalyn*/
 
