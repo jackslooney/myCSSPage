@@ -103,7 +103,7 @@ h2{
 
 p {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -170,12 +170,37 @@ img {
   transform: rotateY(180deg);
 }
 
+.kalyn-padding{
+  padding-left: 5px;
+}
 
 /*Custom IDs that targets only Kalyn's page*/
 #kalyn-image {
   width: 500px;
   height: auto;
   border: 1px solid #033270;
+}
+
+#kalyn-border {
+  border: 5px dotted #033270;
+  position:absolute;
+  top: 215px;
+  left: 520px;
+  height: 570px;
+  width: auto;
+}
+
+/*Kalyn's animation*/
+@keyframes border-change {
+  0% {border-color: #033270; color:#033270;}
+  50% {border-color: #66105E; color:#66105E}
+  100% {border-color: #1b4172; color:#1b4172}
+}
+
+.kalyn-animation {
+  animation-name: border-change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 /* Evan */
@@ -201,3 +226,6 @@ img {
 }
 
 /*Team combined declaration syntax tag selectors*/
+.center {
+  text-align: center;
+}
