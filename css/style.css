@@ -61,7 +61,7 @@ a{
     letter-spacing: .3em;
     background-color: black;
     color:White;
-    padding:45px;
+    padding:45px 45px 65px 45px;
   }
   
   .container{
@@ -71,9 +71,10 @@ a{
   
   /*Formatting for the navBar in the main header*/
   .navBar li{
+    
     letter-spacing: .2em;
     list-style: none;
-    padding-right:40px;
+    padding: 30px 40px 0px 0px;
     float:right;
   }
 
