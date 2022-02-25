@@ -87,9 +87,45 @@ a{
   }
 
 /* Kalyn*/
+/*Step two, five-ten different style properties that target the entire webpage*/
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-emphasis: bold;
+}
+
+h2{
+  color:#033270;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table {
+  border: 1px dotted #033270;
+}
+
+footer {
+  border: 1px solid #66105E;
+  background-color: #66105E;
+  color: white;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+/*Custom class that targets only Kalyn's page*/
 
 
-
+/*Custom IDs that targets only Kalyn's page*/
 
 
 /* Evan */
@@ -114,3 +150,4 @@ a{
   margin: 10px;
 }
 
+/*Team combined declaration syntax tag selectors*/
