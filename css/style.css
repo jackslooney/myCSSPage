@@ -1,38 +1,44 @@
-
-/* Document-wide */
-* {box-sizing:  border-box;}
-/* Mobile Devices: */
-[class*="col-"] { width: 100%;} 
-
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+/** Grid system - https://www.w3schools.com/css/css_rwd_grid.asp **/
+* {
+  box-sizing: border-box;
 }
 
-/* Make all columns float to the left, with some padding */
+/* For mobile phones: */
 [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
+  width: 100%;
+}
 
-/* clears the flow, so that elements won't ignore the columns */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } 
-  
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/** Overflow (for tables) - https://www.w3schools.com/howto/howto_css_table_responsive.asp **/
+.overflow {
+  overflow-x:auto;
+}
 
 
   body{
@@ -226,6 +232,18 @@ img {
 }
 
 /*Team combined declaration syntax tag selectors*/
-.center {
+img.team-page{
+  width: 500px;
+  height: 600px;
+}
+
+p#design {
+  background-color: #033270;
   text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+body.border{
+  border: 5px solid #033270;
 }
