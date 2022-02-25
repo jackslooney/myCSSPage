@@ -127,6 +127,30 @@ img {
   width: auto;
   height: auto;
 }
+/*Evan*/
+
+ol{
+  border: solid black;
+  border-radius: 10px;
+}
+
+li{
+  font-size: larger;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: bold;
+  color:#033270;
+}
+
+div{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  border:transparent;
+}
 
 /*Custom class that targets only Kalyn's page*/
 /*container for image*/
@@ -229,6 +253,20 @@ img {
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 10px;
+}
+
+/* Evan Animation */
+
+@keyframes border-color {
+  0% {border-color: #3b0370; color:#3b0370;}
+  50% {border-color: #3442c0; color:#3442c0}
+  100% {border-color: #3b0370; color:#3b0370}
+}
+
+.evan-animation {
+  animation-name: border-color;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 
 /*Team combined declaration syntax tag selectors*/
