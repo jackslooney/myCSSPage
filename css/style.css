@@ -127,7 +127,7 @@ img {
   width: auto;
   height: auto;
 }
-/*Evan*/
+/*Evan whole page styles*/
 
 ol{
   border: solid black;
@@ -233,7 +233,7 @@ body{
   animation-iteration-count: infinite;
 }
 
-/* Evan */
+/* Evan page targets*/
 #EvanScale{
   width: 400px;
   height: auto;
