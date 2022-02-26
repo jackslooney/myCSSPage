@@ -66,6 +66,15 @@ h3 {
   color:#033270;
 }
 
+h4 {
+  padding: 15 px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  padding: 10px;
+}
+
 button {
   margin: auto;
   background-color: #7b38d8;
