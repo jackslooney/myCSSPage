@@ -317,6 +317,19 @@ html{
   width: auto;
 }
 
+canvas {
+  box-shadow: black 20px 10px 50px;
+}
+
+.canvas-align{
+  margin:0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /*Kalyn's animation*/
 @keyframes border-change {
   0% {border-color: #033270; color:#033270;}
