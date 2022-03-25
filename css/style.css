@@ -88,6 +88,28 @@ button {
   transition: all 0.5s;
   cursor: pointer;
 }
+#textBox{
+  margin: auto;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  height: 60px;
+}
+#output{
+  background-color: #936cca;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 600px;
+  
+}
 
 
   /* Creating a standard header across all pages*/

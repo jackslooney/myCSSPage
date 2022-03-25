@@ -9,5 +9,13 @@ backgroundChange.addEventListener("click", () =>{
 let btn2 = document.querySelector("#cssChange");
 
 btn2.addEventListener("click", ()=>{
+    document.getElementById("cssChange").style.backgroundColor = "red";
     
 })
+let textButton = document.querySelector("#textEntry");
+let userInput = document.querySelector("#textBox");
+
+function myFunction() {
+    var x = "Your name is " + document.getElementById("textBox").value;
+    document.getElementById("output").innerHTML = x;
+  }
