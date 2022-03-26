@@ -456,3 +456,9 @@ p#design {
 body.border{
   border: 5px solid #033270;
 }
+
+#balloonId{
+  color:white;
+  font-size: 100px;
+  line-height: 100px;
+}
