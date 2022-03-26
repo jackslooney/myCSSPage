@@ -19,3 +19,19 @@ function myFunction() {
     var x = "Your name is " + document.getElementById("textBox").value;
     document.getElementById("output").innerHTML = x;
   }
+  
+function randomFunction() {
+    var maxNum = document.getElementById("maxBox").value;
+    var minNum = document.getElementById("minBox").value;
+    if(minNum < maxNum)
+        {
+            var finalNum = getRandomIntInclusive(minNum,maxNum)
+        }
+    document.getElementById("numOutput").innerHTML = finalNum;
+  }
+
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
+  }
