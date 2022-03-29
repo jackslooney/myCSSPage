@@ -12,7 +12,7 @@
 
 <body>
     <header class="main-header">
-        <h1>Random</h1>
+        <h1 id="blackTitle">Random</h1>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">Rough Rodents</a>
@@ -58,16 +58,23 @@
             </div>
           </nav>
     </header>
-
+    
     <div>
         <button id = "elementChange">Click here!</button>
         <button id = "cssChange">Don't Click</button>
         <button onclick = "myFunction()" id = "textEntry">Submit</button>
         <input type="text" id = "textBox" maxlength="25" placeholder="Enter a Name"></input>
     </div>
-
+    
     <div id = "output"></div>
+    <div class="container-fluid" style="padding-top: 10px;">
+      <button class="btn-dark" onclick="titleChange()" id="titleButton">Title Change</button>
 
+    </div>
+
+
+
+  <div style="padding: 20px"></div>
     <div>
         <input type="number" id = "minBox" maxlength="3" placeholder="Enter a number"></input>
     </div>

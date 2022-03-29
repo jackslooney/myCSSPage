@@ -23,6 +23,17 @@ function myFunction() {
 
 var finalNum;
 
+// Button that changes the css of the title to black, and back
+let titleButton = document.querySelector("#titleButton");
+titleButton.addEventListener("click", ()=>{
+    if(document.getElementById("blackTitle").style.backgroundColor== "black") {
+        document.getElementById("blackTitle").style.backgroundColor= "#305f72";
+    } else {
+        document.getElementById("blackTitle").style.backgroundColor= "black";
+    }
+    
+    
+})
 
 function randomFunction() 
 {
@@ -43,6 +54,7 @@ function getRandomIntInclusive(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
   }
+
 
 function createBalloons(){
 
@@ -66,3 +78,5 @@ function createBalloons(){
 
     }
 }
+
+
