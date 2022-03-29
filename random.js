@@ -77,8 +77,7 @@ function createBalloons(){
         // balloons.appendChild(divElement)
 
         var img = document.createElement('img');
-        img.src = 
-        'https://www.citypng.com/public/uploads/preview/-41605489730ztm5f63k7i.png';
+        img.src = "images/balloon.png";
         document.getElementById('balloonId').appendChild(img);
     
 
