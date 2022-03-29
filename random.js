@@ -63,18 +63,24 @@ function createBalloons(){
     for(i = 0; i < finalNum; i++)
     {
         
-        let divElement = document.createElement('div')
+        // let divElement = document.createElement('div')
 
-        // create text node
-        let divElementText = document.createTextNode('BALLOON')
+        // // create text node
+        // let divElementText = document.createTextNode('BALLOON')
 
-        // append text node to div
-        divElement.appendChild(divElementText)
+        // // append text node to div
+        // divElement.appendChild(divElementText)
 
-        let balloons = document.querySelector('#balloonId')
+        // let balloons = document.querySelector('#balloonId')
 
-        // append div element to document
-        balloons.appendChild(divElement)
+        // // append div element to document
+        // balloons.appendChild(divElement)
+
+        var img = document.createElement('img');
+        img.src = 
+        'https://www.citypng.com/public/uploads/preview/-41605489730ztm5f63k7i.png';
+        document.getElementById('balloonId').appendChild(img);
+    
 
     }
 }
